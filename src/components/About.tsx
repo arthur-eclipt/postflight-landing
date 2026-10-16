@@ -15,7 +15,7 @@ export default function About() {
 
         <div className="mt-8 max-w-2xl space-y-5 text-lg leading-relaxed text-fog">
           <p>
-            PostFlight is a small, focused product. We&rsquo;re building it for
+            PostAirborne is a small, focused product. We&rsquo;re building it for
             the kind of pilot who keeps their logbook neatly, double-checks
             their hours, and notices when an export is off by a tenth.
           </p>

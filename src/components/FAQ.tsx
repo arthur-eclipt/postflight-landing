@@ -5,12 +5,12 @@ type Item = {
 
 const ITEMS: Item[] = [
   {
-    q: "When does PostFlight launch?",
+    q: "When does PostAirborne launch?",
     a: "iOS, Android, and web. Founding 500 pilots are first through the door. Join the waitlist above and you'll hear from us before launch.",
   },
   {
     q: "What does “ADS-B verified” mean?",
-    a: "After each flight, PostFlight cross-references your logged entry against publicly broadcast ADS-B radar data. If a flight didn't fly, it can't appear in your logbook. The result is a verification badge bound to the record.",
+    a: "After each flight, PostAirborne cross-references your logged entry against publicly broadcast ADS-B radar data. If a flight didn't fly, it can't appear in your logbook. The result is a verification badge bound to the record.",
   },
   {
     q: "Which authorities are supported at launch?",
@@ -34,24 +34,24 @@ const ITEMS: Item[] = [
       <>
         A real person reads{" "}
         <a
-          href="mailto:hello@postflight.com"
+          href="mailto:hello@postairborne.com"
           className="text-bone underline decoration-gold decoration-2 underline-offset-4 hover:decoration-gold-dim"
         >
-          hello@postflight.com
+          hello@postairborne.com
         </a>
         . Academy enquiries:{" "}
         <a
-          href="mailto:academies@postflight.com"
+          href="mailto:academies@postairborne.com"
           className="text-bone underline decoration-gold decoration-2 underline-offset-4 hover:decoration-gold-dim"
         >
-          academies@postflight.com
+          academies@postairborne.com
         </a>
         . Data requests:{" "}
         <a
-          href="mailto:dpo@postflight.com"
+          href="mailto:dpo@postairborne.com"
           className="text-bone underline decoration-gold decoration-2 underline-offset-4 hover:decoration-gold-dim"
         >
-          dpo@postflight.com
+          dpo@postairborne.com
         </a>
         .
       </>

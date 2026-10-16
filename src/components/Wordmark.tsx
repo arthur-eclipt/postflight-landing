@@ -8,7 +8,7 @@ type Props = {
 export default function Wordmark({ className, href = "/" }: Props) {
   const inner = (
     <>
-      Post<span className="text-gold">·</span>Flight
+      Post<span className="text-gold">Airborne</span>
     </>
   );
 

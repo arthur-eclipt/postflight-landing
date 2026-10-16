@@ -21,25 +21,25 @@ const jetbrains = JetBrains_Mono({
   display: "swap",
 });
 
-const SITE_URL = "https://postflight.com";
+const SITE_URL = "https://postairborne.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "PostFlight — The pilot logbook that proves itself.",
+  title: "PostAirborne — The pilot logbook that proves itself.",
   description:
     "Every flight verified against radar. Every milestone sealed by your instructor. The premium digital logbook for EASA, UK CAA, and FAA pilots.",
   alternates: { canonical: SITE_URL },
   openGraph: {
     type: "website",
     url: SITE_URL,
-    siteName: "PostFlight",
-    title: "PostFlight — The pilot logbook that proves itself.",
+    siteName: "PostAirborne",
+    title: "PostAirborne — The pilot logbook that proves itself.",
     description:
       "Every flight verified against radar. Every milestone sealed by your instructor. The premium digital logbook for EASA, UK CAA, and FAA pilots.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "PostFlight — The pilot logbook that proves itself.",
+    title: "PostAirborne — The pilot logbook that proves itself.",
     description:
       "Every flight verified against radar. Every milestone sealed by your instructor.",
   },

@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "PostFlight — The pilot logbook that proves itself.";
+export const alt = "PostAirborne — The pilot logbook that proves itself.";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -72,7 +72,7 @@ export default function OpengraphImage() {
           <div style={{ display: "flex" }}>
             ADS-B verified · EASA · UK CAA · FAA
           </div>
-          <div style={{ display: "flex" }}>postflight.com</div>
+          <div style={{ display: "flex" }}>postairborne.com</div>
         </div>
       </div>
     ),

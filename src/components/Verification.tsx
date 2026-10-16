@@ -15,7 +15,7 @@ export default function Verification() {
 
         <div className="mt-8 max-w-2xl space-y-5 text-lg leading-relaxed text-fog">
           <p>
-            PostFlight runs every flight you log against ADS-B radar data. If
+            PostAirborne runs every flight you log against ADS-B radar data. If
             it flew, it&rsquo;s proven. If it didn&rsquo;t, it can&rsquo;t be
             in your logbook.
           </p>

@@ -8,7 +8,7 @@ const STEPS: Step[] = [
   {
     number: "01",
     title: "Log the flight",
-    body: "Open PostFlight on shutdown. OOOI times pre-fill. Add role, remarks, route notes if you need to. Save.",
+    body: "Open PostAirborne on shutdown. OOOI times pre-fill. Add role, remarks, route notes if you need to. Save.",
   },
   {
     number: "02",

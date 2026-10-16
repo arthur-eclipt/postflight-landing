@@ -1,6 +1,6 @@
-# PostFlight Landing
+# PostAirborne Landing
 
-Marketing landing page for **PostFlight** — the pilot logbook that proves itself.
+Marketing landing page for **PostAirborne** — the pilot logbook that proves itself.
 
 ## Stack
 
@@ -35,8 +35,8 @@ Without these set, the `/api/waitlist` endpoint returns a 500 with `server_misco
 
 1. Push to GitHub.
 2. Import in Vercel — framework auto-detects as Next.js.
-3. Add domains `postflight.com` and `www.postflight.com` under **Project Settings → Domains**.
-4. If you also own `postflight.co.uk`, point it at the Vercel project and Vercel will redirect it to the primary domain.
+3. Add domains `postairborne.com` and `www.postairborne.com` under **Project Settings → Domains**.
+4. If you also own `postairborne.co.uk`, point it at the Vercel project and Vercel will redirect it to the primary domain.
 5. Set environment variables in **Project Settings → Environment Variables**:
    - `MAILERLITE_API_KEY`
    - `MAILERLITE_GROUP_ID`

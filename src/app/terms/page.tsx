@@ -2,17 +2,17 @@ import type { Metadata } from "next";
 import LegalPage from "@/components/LegalPage";
 
 export const metadata: Metadata = {
-  title: "Terms of Service — PostFlight",
-  description: "The terms under which PostFlight is offered.",
+  title: "Terms of Service — PostAirborne",
+  description: "The terms under which PostAirborne is offered.",
 };
 
 export default function TermsPage() {
   return (
-    <LegalPage title="Terms of Service" updated="21 May 2026">
+    <LegalPage title="Terms of Service" updated="16 October 2026">
       <h2>About</h2>
       <p>
-        These are the terms for using the PostFlight app, web app, and the
-        postflight.com website. By using PostFlight you agree to these terms.
+        These are the terms for using the PostAirborne app, web app, and the
+        postairborne.com website. By using PostAirborne you agree to these terms.
       </p>
 
       <h2>Use of the service</h2>
@@ -24,7 +24,7 @@ export default function TermsPage() {
 
       <h2>Logbook accuracy is your responsibility</h2>
       <p>
-        PostFlight is a record-keeping tool, not a substitute for the
+        PostAirborne is a record-keeping tool, not a substitute for the
         pilot&rsquo;s legal responsibility to maintain accurate flight records
         as required by their licensing authority. Always verify exports before
         submission to a CAA, FAA, or EASA examiner.
@@ -48,7 +48,7 @@ export default function TermsPage() {
 
       <h2>Instructor endorsements</h2>
       <p>
-        Endorsements made through PostFlight are a digital record of the
+        Endorsements made through PostAirborne are a digital record of the
         instructor&rsquo;s sign-off. The instructor remains responsible for
         the accuracy and authority of their endorsement under applicable
         aviation law.
@@ -63,7 +63,7 @@ export default function TermsPage() {
 
       <h2>Liability</h2>
       <p>
-        To the extent permitted by law, PostFlight Ltd is not liable for
+        To the extent permitted by law, PostAirborne Ltd is not liable for
         indirect or incidental loss. Nothing limits liability that cannot be
         limited under English law.
       </p>
@@ -78,7 +78,7 @@ export default function TermsPage() {
 
       <h2>Contact</h2>
       <p>
-        <a href="mailto:hello@postflight.com">hello@postflight.com</a>.
+        <a href="mailto:hello@postairborne.com">hello@postairborne.com</a>.
       </p>
     </LegalPage>
   );

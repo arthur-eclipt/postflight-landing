@@ -19,7 +19,7 @@ export default function Footer() {
             <p className="mt-3 text-sm text-fog">
               Log it. Prove it. Share it.
             </p>
-            <p className="mt-6 text-sm text-fog">© 2026 PostFlight Ltd</p>
+            <p className="mt-6 text-sm text-fog">© 2026 PostAirborne Ltd</p>
           </div>
 
           <div>
@@ -47,10 +47,10 @@ export default function Footer() {
             <ul className="mt-4 space-y-3 text-sm">
               <li>
                 <a
-                  href="mailto:hello@postflight.com"
+                  href="mailto:hello@postairborne.com"
                   className="text-fog transition-colors hover:text-bone"
                 >
-                  hello@postflight.com
+                  hello@postairborne.com
                 </a>
               </li>
               <li>

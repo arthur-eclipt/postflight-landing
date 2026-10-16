@@ -15,7 +15,7 @@ export default function ForAcademies() {
 
         <div className="mt-10 max-w-3xl space-y-5 text-lg leading-relaxed text-fog">
           <p>
-            Academy partnership puts every student pilot on PostFlight Pro at
+            Academy partnership puts every student pilot on PostAirborne Pro at
             no cost. Their logbooks are verified, their endorsements are
             sealed, and every milestone they share carries your academy&rsquo;s
             mark.
@@ -34,10 +34,10 @@ export default function ForAcademies() {
         <p className="mt-10 text-fog">
           Talk to us about Academy partnership —{" "}
           <a
-            href="mailto:academies@postflight.com"
+            href="mailto:academies@postairborne.com"
             className="text-bone underline decoration-gold decoration-2 underline-offset-4 hover:decoration-gold-dim"
           >
-            academies@postflight.com
+            academies@postairborne.com
           </a>
         </p>
       </div>

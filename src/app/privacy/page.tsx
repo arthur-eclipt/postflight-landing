@@ -2,18 +2,18 @@ import type { Metadata } from "next";
 import LegalPage from "@/components/LegalPage";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — PostFlight",
-  description: "How PostFlight handles your data.",
+  title: "Privacy Policy — PostAirborne",
+  description: "How PostAirborne handles your data.",
 };
 
 export default function PrivacyPage() {
   return (
-    <LegalPage title="Privacy Policy" updated="21 May 2026">
-      <h2>About PostFlight</h2>
+    <LegalPage title="Privacy Policy" updated="16 October 2026">
+      <h2>About PostAirborne</h2>
       <p>
-        This is the privacy policy for the PostFlight mobile app, web app, and
-        the postflight.com website. PostFlight is built by PostFlight Ltd, a
-        company registered in England.
+        This is the privacy policy for the PostAirborne mobile app, web app, and
+        the postairborne.com website. PostAirborne is built by PostAirborne Ltd, a
+        company registered in England and Wales.
       </p>
 
       <h2>What we collect when you create an account</h2>
@@ -60,7 +60,7 @@ export default function PrivacyPage() {
 
       <h2>Children&rsquo;s data</h2>
       <p>
-        PostFlight is intended for licensed pilots and student pilots aged 16
+        PostAirborne is intended for licensed pilots and student pilots aged 16
         and over. We do not knowingly collect data from anyone under 16.
       </p>
 
@@ -68,7 +68,7 @@ export default function PrivacyPage() {
       <p>
         Under UK GDPR you can access, correct, export, or delete your data,
         and object to processing. Email{" "}
-        <a href="mailto:dpo@postflight.com">dpo@postflight.com</a>.
+        <a href="mailto:dpo@postairborne.com">dpo@postairborne.com</a>.
       </p>
 
       <h2>Changes</h2>
@@ -79,10 +79,10 @@ export default function PrivacyPage() {
 
       <h2>Contact</h2>
       <p>
-        <a href="mailto:dpo@postflight.com">dpo@postflight.com</a> for data
+        <a href="mailto:dpo@postairborne.com">dpo@postairborne.com</a> for data
         requests,{" "}
-        <a href="mailto:hello@postflight.com">hello@postflight.com</a> for
-        everything else. PostFlight Ltd, registered in England.
+        <a href="mailto:hello@postairborne.com">hello@postairborne.com</a> for
+        everything else. PostAirborne Ltd, registered in England and Wales.
       </p>
     </LegalPage>
   );

@@ -76,7 +76,7 @@ export default function WaitlistForm() {
       </p>
       {state === "error" && (
         <p className="mt-3 text-xs text-[#E36F6F]">
-          Something went wrong. Try again, or email hello@postflight.com.
+          Something went wrong. Try again, or email hello@postairborne.com.
         </p>
       )}
     </div>
